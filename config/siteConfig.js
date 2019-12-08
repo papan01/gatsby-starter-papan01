@@ -3,7 +3,7 @@ const config = {
   siteTitle: 'Papan01-Blog-Gatsby-Starter', // Site title.
   siteTitleShort: 'P01 GatsbyJS', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: 'Papan01-Blog-GatsbyJS-Starter', // Alternative site title for SEO.
-  siteLanguage: 'us', // Site language.
+  siteLanguage: 'en', // Site language.
   siteDescription: 'A blog starter with the bare essentials needed for a Gatsby site(SEO, pagination, category etc.)', // Website description used for RSS feeds/meta description tag.
   siteLogo: 'static/favicons/favicon.png', // Logo used for SEO and manifest.
   siteUrl: 'https://papan01-blog-gatsby-starter.netlify.com', // Domain of your website without pathPrefix.
