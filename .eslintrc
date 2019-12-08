@@ -1,0 +1,63 @@
+{
+    "parser":"babel-eslint",
+    "parserOptions": {
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+      }
+    }, 
+    "extends": [
+        "airbnb",
+        "airbnb/hooks",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "prettier"
+    ],
+    "plugins": [
+        "react",
+        "import",
+        "jsx-a11y",
+        "react-hooks",
+        "prettier"
+    ],
+    "rules": {
+      /**
+      * @description rules of eslint-plugin-react
+      */
+      "react/jsx-filename-extension": ["warn", {
+        "extensions": [".jsx"]
+      }],
+      /**
+      * @description rules of eslint-plugin-prettier
+      */
+      "prettier/prettier": [
+        "error", {
+          "singleQuote": true,
+          "printWidth": 120,
+          "trailingComma": "all"
+        }
+      ],
+      /**
+      * @description rules of eslint-plugin-react-hooks
+      */
+      "react-hooks/rules-of-hooks": "error",
+      /**
+      * @description rules of eslint-plugin-import
+      */
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    },
+    "env": {
+        "browser": true
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+              "extensions": [".js", ".jsx"]
+            }
+        },
+        "react": {
+          "version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@import "../../layout/style/base/setting";
+
+.post-tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: $spacing-small 0;
+  >li>a {
+    margin-top: $spacing-small;
+    margin-right: $spacing-small;
+    padding: 4px;
+    display: inline-block;
+    border-radius: $base-border-radius;
+    box-shadow: 0 0 $spacing-xsmall var(--tag-border);
+    transition: all $transition-faster-easein;
+    &:hover {
+      color: var(--invert2);
+      background: var(--invert1);
+      box-shadow: 0 0 $spacing-large var(--tag-border);
+    }
+  }
+}

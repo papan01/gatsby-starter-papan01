@@ -1,0 +1,25 @@
+@import "../../layout/style/base/setting";
+@import "../../layout/style/base/breakpoints";
+
+.to-top {
+  position: fixed;
+  bottom: -$base-spacing-unit * 10;
+  right: $base-spacing-unit * 3.5;
+  border-radius: $base-border-radius;
+  color: var(--pink1);
+  font-size: $font-medium * 1.5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  outline: 0;
+  cursor: pointer;
+  transition: all $transition-slower-ease;
+  border: $base-border * 0.5 solid rgba(220, 57, 88, 0.15);
+  @include media-breakpoint-up($breakpoint-md) {
+    &.to-top-active {
+      bottom: $base-spacing-unit * 4.5;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+@mixin hoverScale($scale) {
+    transform-origin: 50% 50%;
+    transform: scale($scale, $scale);
+}

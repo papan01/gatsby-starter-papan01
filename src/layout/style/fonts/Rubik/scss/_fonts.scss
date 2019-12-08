@@ -1,0 +1,125 @@
+$font-path: "./fonts/Rubik/webfonts";
+$font-display: swap;
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-Light.eot");
+  src: url("#{$font-path}/Rubik-Light.eot?#iefix") format("embedded-opentype"),
+    url("#{$font-path}/Rubik-Light.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-Light.woff") format("woff"),
+    url("#{$font-path}/Rubik-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: $font-display;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-LightItalic.eot");
+  src: url("#{$font-path}/Rubik-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("#{$font-path}/Rubik-LightItalic.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-LightItalic.woff") format("woff"),
+    url("#{$font-path}/Rubik-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: $font-display;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-Regular.eot");
+  src: url("#{$font-path}/Rubik-Regular.eot?#iefix") format("embedded-opentype"),
+    url("#{$font-path}/Rubik-Regular.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-Regular.woff") format("woff"),
+    url("#{$font-path}/Rubik-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: $font-display;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-Italic.eot");
+  src: url("#{$font-path}/Rubik-Italic.eot?#iefix") format("embedded-opentype"),
+    url("#{$font-path}/Rubik-Italic.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-Italic.woff") format("woff"),
+    url("#{$font-path}/Rubik-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: $font-display;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-Medium.eot");
+  src: url("#{$font-path}/Rubik-Medium.eot?#iefix") format("embedded-opentype"),
+    url("#{$font-path}/Rubik-Medium.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-Medium.woff") format("woff"),
+    url("#{$font-path}/Rubik-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: $font-display;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-MediumItalic.eot");
+  src: url("#{$font-path}/Rubik-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("#{$font-path}/Rubik-MediumItalic.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-MediumItalic.woff") format("woff"),
+    url("#{$font-path}/Rubik-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: $font-display;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-Bold.eot");
+  src: url("#{$font-path}/Rubik-Bold.eot?#iefix") format("embedded-opentype"),
+    url("#{$font-path}/Rubik-Bold.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-Bold.woff") format("woff"),
+    url("#{$font-path}/Rubik-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: $font-display;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-BoldItalic.eot");
+  src: url("#{$font-path}/Rubik-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("#{$font-path}/Rubik-BoldItalic.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-BoldItalic.woff") format("woff"),
+    url("#{$font-path}/Rubik-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: $font-display;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-Black.eot");
+  src: url("#{$font-path}/Rubik-Black.eot?#iefix") format("embedded-opentype"),
+    url("#{$font-path}/Rubik-Black.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-Black.woff") format("woff"),
+    url("#{$font-path}/Rubik-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: $font-display;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("#{$font-path}/Rubik-BlackItalic.eot");
+  src: url("#{$font-path}/Rubik-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("#{$font-path}/Rubik-BlackItalic.woff2") format("woff2"),
+    url("#{$font-path}/Rubik-BlackItalic.woff") format("woff"),
+    url("#{$font-path}/Rubik-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-display: $font-display;
+  font-style: italic;
+}

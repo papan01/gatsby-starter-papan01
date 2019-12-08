@@ -1,0 +1,54 @@
+:root {
+  --white: #fff;
+  --black: #0f1114;
+  --pink1: #ffa7c4;
+  --pink2: #ff7597;
+  --blue1: #0072bb;
+  --yellow1: #efbb35;
+  --yellow2: rgb(245, 222, 179);
+}
+
+$palette: (
+  light: (
+    --bg1: #fff,
+    --bg2: #fafafa,
+    --bg3: #fcfcfc,
+    --bg4: #f8f8f8,
+    --invert1: #282c35,
+    --invert2: #f9ffee,
+    --text-color: #555,
+    --link: var(--text-color),
+    --post-content-link: #d32f2f,
+    --subtle-top1: rgba(107, 183, 86, 1),
+    --subtle-top2: rgba(0, 143, 104, 1),
+    --subtle-h1-1: #ef9a9a,
+    --subtle-h1-2: #e53935,
+    --subtle-h1-3: #b71c1c,
+    --hover-top: #8bc34a,
+    --hover-top-icon: #df1c31,
+    --post-card-hover: var(--black),
+    --category-border: #757575,
+    --tag-border: #212121
+  ),
+  dark: (
+    --bg1: #282c35,
+    --bg2: #181c22,
+    --bg3: #1a1d24,
+    --bg4: #000,
+    --invert1: #f9ffee,
+    --invert2: #282c35,
+    --text-color: #f9ffee,
+    --link: var(--yellow2),
+    --post-content-link: var(--yellow2),
+    --subtle-top1: #212121,
+    --subtle-top2: #28313e,
+    --subtle-h1-1: #a7ffeb,
+    --subtle-h1-2: #1de9b6,
+    --subtle-h1-3: #00bfa5,
+    --hover-top: #424242,
+    --hover-top-icon: #ffcf44,
+    --post-card-hover: var(--text-color),
+    --category-border: var(--yellow1),
+    --tag-border: #03dac6
+  )
+);

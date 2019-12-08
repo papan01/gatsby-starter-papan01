@@ -1,0 +1,47 @@
+@import "../../layout/style/base/setting";
+@import "../../layout/style/base/breakpoints";
+
+.post-short-list {
+  li {
+    display: flex;
+    font-size: $base-relative-font-size * 1.4;
+    border-left: $base-border / 3 solid var(--yellow1);
+    transition: background-color $transition-faster-easeinout;
+    @include media-breakpoint-down($breakpoint-sm) {
+        flex-direction: column;
+    }
+
+    &:hover {
+      background-color: var(--bg2);
+      .post-date-timetoread p:nth-child(1) {
+        border-left: $base-border solid var(--yellow1);
+      }
+
+      > a {
+        color: var(--pink1);
+      }
+    }
+
+    .post-date-timetoread {
+      flex-basis: 30%;
+      display: flex;
+      justify-content: space-between;
+      @include media-breakpoint-down($breakpoint-sm) {
+        justify-content: flex-start;
+      } 
+      p:nth-child(1) {
+        padding: 0 $spacing-small;
+
+        border-left: $base-border solid transparent;
+      }
+    }
+
+    > a {
+      padding: 0 $spacing-small;
+      transition: color $transition-faster-easeinout;
+      &:hover {
+        color: var(--pink2);
+      }
+    }
+  }
+}

@@ -1,0 +1,130 @@
+@import "./base/setting";
+@import "./base/normalize";
+@import "./theme/themes";
+@import './fonts/fontawesome/scss/solid.scss';
+@import './fonts/fontawesome/scss/brands.scss';
+@import './fonts/fontawesome/scss/fontawesome.scss';
+@import './fonts/Rubik/scss/fonts';
+@import "./base/breakpoints";
+@import "./layout/layout";
+
+html {
+  font-size: $font-medium;
+  @include media-breakpoint-down($breakpoint-sm) {
+    font-size: $font-xsmall;
+  }
+}
+
+body {
+  background: var(--bg1);
+  font-family: "Rubik", sans-serif;
+  color: var(--text-color);
+  padding: 0;
+  margin: 0;
+  line-height: $base-line-height;
+  font-weight: $font-weight-normal;
+  transition: background-color $transition-faster-easeout;
+}
+
+div,
+form,
+p {
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+}
+
+strong {
+  font-weight: $font-weight-bold;
+}
+
+h1 {
+  font-size: $header-size-1;
+  font-weight: $font-weight-medium;
+  margin: $base-relative-spacing-unit / 2 0;
+}
+
+h2 {
+  display: flex;
+  font-size: $header-size-2;
+  margin: $base-relative-spacing-unit / 2 0;
+  color: var(--pink2);
+
+  &:after {
+    content: " ";
+    background: linear-gradient(to right, var(--pink2), var(--bg1));
+    height: $base-border;
+    width: auto;
+    flex-grow: 1;
+    margin: $base-relative-spacing-unit 0 0 3px;
+  }
+}
+
+h3 {
+  font-size: $header-size-3;
+}
+
+h4 {
+  font-size: $header-size-4;
+}
+
+h5 {
+  font-size: $header-size-5;
+}
+
+h6 {
+  font-size: $header-size-6;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+img,
+svg {
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--link);
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+hr {
+  margin: $base-relative-spacing-unit * 2 0;
+  border: $base-border solid var(--yellow1);
+}
