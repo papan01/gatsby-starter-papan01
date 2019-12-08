@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://papan01.github.io/papan01-blog-gatsby-starter/">
+  <a href="https://papan01-blog-gatsby-starter.netlify.com/">
     <img alt="Papan" src="./static/favicons/logo.png" width="60" />
   </a>
 </p>
@@ -21,4 +21,5 @@
 </h1>
 
 A blog starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
+
 [Demo WebSite](https://papan01-blog-gatsby-starter.netlify.com/)
