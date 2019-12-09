@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/netlify/b6aa1884-5694-41a3-90c7-e028a42788ec" alt="netlify" />
   </a>
   <a href="https://www.codacy.com/manual/papan01/papan01-gatsby-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=papan01/papan01-gatsby-starter&amp;utm_campaign=Badge_Grade">
-    <img src="https://img.shields.io/codacy/grade/365d7d2f7a364cdfa3b0a2b167b02270" alt="codacy" />
+    <img src="https://img.shields.io/codacy/grade/6787238016a7467ea2e8d8b0b4a9e6b7" alt="codacy" />
   </a>
 </div>                   
 
@@ -23,7 +23,7 @@
 
 A Gatsby blog starter. The theme is controlled yourself. 
 
-See the starter in action » [Demo WebSite](https://papan01-blog-gatsby-starter.netlify.com/)
+See the starter in action » [Demo WebSite](https://papan01-gatsby-starter.netlify.com/)
 
 ## 🎏 Audit Score
 
