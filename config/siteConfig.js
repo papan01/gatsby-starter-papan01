@@ -5,7 +5,7 @@ const config = {
   siteTitleAlt: 'Papan01-Blog-GatsbyJS-Starter', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
   siteDescription: 'A blog starter with the bare essentials needed for a Gatsby site(SEO, pagination, category etc.)', // Website description used for RSS feeds/meta description tag.
-  siteLogo: 'static/favicons/favicon.png', // Logo used for SEO and manifest.
+  siteLogo: 'static/favicons/favicon.png', // Logo used for manifest.
   siteUrl: 'https://papan01-blog-gatsby-starter.netlify.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
@@ -16,7 +16,7 @@ const config = {
   datePublished: '2019-12-08', // for SEO
   copyrightYear: '2019', // for SEO
   postsPerPage: 4, // posts per page used in gatsby-node.js
-  // Links to social profiles/projects you want to display in the author segment/navigation bar.
+  // Links to social profiles you want to display in the footer.
   rrssb: [
     {
       label: 'github',
@@ -39,6 +39,7 @@ const config = {
       iconClassName: 'fab fa-instagram',
     },
   ],
+  // Links to pages you want to display in the navigation bar.
   navbarLinks: [
     {
       label: 'Archives',
