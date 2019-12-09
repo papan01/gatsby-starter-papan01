@@ -25,7 +25,7 @@ const config = {
     },
     {
       label: 'mail',
-      url: 'mailto: navy90517@gmail.com',
+      url: 'mailto:navy90517@gmail.com',
       iconClassName: 'fa fa-envelope',
     },
     {
