@@ -46,9 +46,10 @@ See the starter in action » [Demo WebSite](https://papan01-blog-gatsby-starter.
 - React Hooks
 - SSR React Code Splitting([loadable-components](https://github.com/gregberge/loadable-components))
 - Theme Toggle(light/dark)
-  Light                  | Dark
-  :---------------------:|:---------------------:
-  ![](docs/light.png)    |![](docs/dark.png)
+
+Light                  | Dark
+:---------------------:|:---------------------:
+![](docs/light.png)    |![](docs/dark.png)
 - Pagination
 - SEO(Sitemap, Schema.org, OpenGraph tags, Twitter tag)
 - Web application manifest and offline support 
