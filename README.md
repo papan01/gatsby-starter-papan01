@@ -25,24 +25,6 @@ A Gatsby blog starter. The theme is controlled yourself.
 
 See the starter in action » [Demo WebSite](https://gatsby-starter-papan01.netlify.com/)
 
-## 🎏 Audit Score
-
-- Lighthouse
-
-<div align="center">
-  <a href="http://developers.google.com/web/tools/lighthouse/">
-    <img src="docs/lighthouse.png" alt="lighthouse" />
-  </a>
-</div>
-
-- Webpagetest
-
-<div align="center">
-  <a href="https://webpagetest.org">
-    <img src="docs/webpagetest.png" alt="webpagetest" />
-  </a>
-</div>
-
 ## ⛩ Features
 - React Hooks
 - SSR React Code Splitting([loadable-components](https://github.com/gregberge/loadable-components))
