@@ -1,18 +1,18 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://papan01-gatsby-starter.netlify.com/">
+  <a href="https://gatsby-starter-papan01.netlify.com/">
     <img alt="Papan" src="./static/favicons/logo.png" width="100" />
   </a>
 </p>
 
 <div align="center">
-  <a href="https://github.com/papan01/papan01-gatsby-starter/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/papan01/papan01-gatsby-starter" alt="license" />
+  <a href="https://github.com/papan01/gatsby-starter-papan01/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/papan01/gatsby-starter-papan01" alt="license" />
   </a>
-  <a href="https://papan01-gatsby-starter.netlify.com/">
+  <a href="https://gatsby-starter-papan01.netlify.com/">
     <img src="https://img.shields.io/netlify/b6aa1884-5694-41a3-90c7-e028a42788ec" alt="netlify" />
   </a>
-  <a href="https://www.codacy.com/manual/papan01/papan01-gatsby-starter?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=papan01/papan01-gatsby-starter&amp;utm_campaign=Badge_Grade">
+  <a href="https://www.codacy.com/manual/papan01/gatsby-starter-papan01?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=papan01/gatsby-starter-papan01&amp;utm_campaign=Badge_Grade">
     <img src="https://img.shields.io/codacy/grade/6787238016a7467ea2e8d8b0b4a9e6b7" alt="codacy" />
   </a>
 </div>                   
@@ -23,7 +23,7 @@
 
 A Gatsby blog starter. The theme is controlled yourself. 
 
-See the starter in action » [Demo WebSite](https://papan01-gatsby-starter.netlify.com/)
+See the starter in action » [Demo WebSite](https://gatsby-starter-papan01.netlify.com/)
 
 ## 🎏 Audit Score
 
@@ -72,7 +72,7 @@ Light                  | Dark
 Use the [Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/) to create a new site.
 
 ```sh
-gatsby new YOUR-PROJECT-NAME https://github.com/papan01/papan01-gatsby-starter
+gatsby new YOUR-PROJECT-NAME https://github.com/papan01/gatsby-starter-papan01
 ```
 
 1.  **Start developing.**
@@ -93,7 +93,7 @@ _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This
 Or 
 
 ```sh
-git clone https://github.com/papan01/papan01-gatsby-starter.git YOUR-PROJECT-NAME
+git clone https://github.com/papan01/gatsby-starter-papan01.git YOUR-PROJECT-NAME
 cd YOUR-PROJECT-NAME
 rm -rf .git
 npm install
@@ -107,18 +107,18 @@ Edit the confing in config/siteConfig.js:
 ```js
 const config = {
   author: 'Papan01', // Site owner
-  siteTitle: 'Papan01-Blog-Gatsby-Starter', // Site title.
-  siteTitleShort: 'P01 GatsbyJS', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: 'Papan01-Blog-GatsbyJS-Starter', // Alternative site title for SEO.
+  siteTitle: 'Gatsby-Starter-Papan01', // Site title.
+  siteTitleShort: 'GatsbyJS P01', // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
+  siteTitleAlt: 'GatsbyJS-Starter-Papan01', // Alternative site title for SEO.
   siteLanguage: 'en', // Site language.
   siteDescription: 'A blog starter with the bare essentials needed for a Gatsby site(SEO, pagination, category etc.)', // Website description used for RSS feeds/meta description tag.
   siteLogo: 'static/favicons/favicon.png', // Logo used for manifest.
-  siteUrl: 'https://papan01-blog-gatsby-starter.netlify.com', // Domain of your website without pathPrefix.
+  siteUrl: 'https://gatsby-starter-papan01.netlify.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
   siteFBAppID: '464217807633356', // FB Application ID for using app insights
   siteGATrackingID: 'UA-153303709-3', // Tracking code ID for google analytics.
-  disqusShortname: 'papan01-blog-gatsbyjs-starter', // Disqus shortname.
+  disqusShortname: 'gatsbyjs-starter-papan01', // Disqus shortname.
   twitterUserName: '', // twitter creator for SEO
   datePublished: '2019-12-08', // for SEO
   copyrightYear: '2019', // for SEO
@@ -132,7 +132,7 @@ const config = {
     },
     {
       label: 'mail',
-      url: 'mailto: navy90517@gmail.com',
+      url: 'mailto:navy90517@gmail.com',
       iconClassName: 'fa fa-envelope',
     },
     {
