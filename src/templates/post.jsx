@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Disqus } from 'gatsby-plugin-disqus';
 import 'prismjs/themes/prism-tomorrow.css';
 import { graphql, Link } from 'gatsby';
 import Img from 'gatsby-image';
@@ -9,6 +8,7 @@ import PostText from '../components/postText';
 import PostTags from '../components/postTags';
 import SEO from '../components/SEO';
 import { useIsMobile } from '../components/utils';
+import loadable from '@loadable/component';
 import './post.scss';
 import config from '../../config/siteConfig';
 
@@ -54,6 +54,7 @@ const Post = ({ data, pageContext }) => {
     identifier: title,
     title,
   };
+  const Disqus = loadable(() => import('gatsby-plugin-disqus'));
   return (
     <Layout>
       <SEO title={title} description={excerpt} image={cover.publicURL} path={slug} articleDate={date} />
@@ -137,7 +138,7 @@ PostPrevNext.propTypes = {
     frontmatter: PropTypes.shape({
       title: PropTypes.string.isRequired,
     }),
-  }).isRequired,
+  }),
   next: PropTypes.shape({
     fields: PropTypes.shape({
       slug: PropTypes.string.isRequired,
@@ -145,7 +146,12 @@ PostPrevNext.propTypes = {
     frontmatter: PropTypes.shape({
       title: PropTypes.string.isRequired,
     }),
-  }).isRequired,
+  }),
+};
+
+PostPrevNext.defaultProps = {
+  prev: null,
+  next: null,
 };
 
 export default Post;

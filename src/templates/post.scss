@@ -14,7 +14,7 @@
   .post-title {
     margin-block-end: 0;
     margin-block-start: 0;
-    font-size: $header-size-1;
+    font-size: $header-size-2;
     transition: all $transition-slower-ease;
   }
 
@@ -24,9 +24,11 @@
 }
 
 .post-content {
+  margin: $relative-spacing-large 0;
   font-size: $font-medium * 1.5;
 
   ol {
+    margin-left: -$relative-spacing-xlarge;
     counter-reset: ol-counter;
     li {
       counter-increment: ol-counter;
@@ -45,9 +47,7 @@
 
   ul {
     position: relative;
-    margin-left: $base-relative-spacing-unit;
-
-    li::before {
+    > li::before {
       content: "";
       transform: translate(-$base-relative-spacing-unit, 0);
       margin-top: $base-relative-spacing-unit / 2;

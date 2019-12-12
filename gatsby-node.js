@@ -1,6 +1,8 @@
 const path = require(`path`);
 const _ = require('lodash');
 const LoadablePlugin = require('@loadable/webpack-plugin');
+
+const { createFilePath } = require(`gatsby-source-filesystem`);
 const config = require('./config/siteConfig');
 
 exports.onCreateWebpackConfig = ({ actions }) => {
@@ -9,10 +11,11 @@ exports.onCreateWebpackConfig = ({ actions }) => {
   });
 };
 
-exports.onCreateNode = ({ node, actions }) => {
+exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = `/${_.kebabCase(node.frontmatter.title)}`;
+    const filePath = createFilePath({ node, getNode });
+    const slug = `/${_.kebabCase(filePath)}`;
     createNodeField({
       node,
       name: `slug`,
