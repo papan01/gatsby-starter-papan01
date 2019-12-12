@@ -34,7 +34,7 @@ Light                  | Dark
 :---------------------:|:---------------------:
 ![](docs/light.png)    |![](docs/dark.png)
 - Pagination
-- SEO(Sitemap, Schema.org, OpenGraph tags, Twitter tag)
+- SEO(Sitemap, Schema.org, OpenGraph tags, Twitter tags)
 - Web application manifest and offline support 
 - Google analytics
 - Tags
