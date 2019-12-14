@@ -65,7 +65,8 @@ $font-display: swap;
 @font-face {
   font-family: "Rubik";
   src: url("#{$font-path}/Rubik-MediumItalic.eot");
-  src: url("#{$font-path}/Rubik-MediumItalic.eot?#iefix") format("embedded-opentype"),
+  src: url("#{$font-path}/Rubik-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
     url("#{$font-path}/Rubik-MediumItalic.woff2") format("woff2"),
     url("#{$font-path}/Rubik-MediumItalic.woff") format("woff"),
     url("#{$font-path}/Rubik-MediumItalic.ttf") format("truetype");

@@ -83,8 +83,11 @@ $transition-normal-easeout: $transition-time-normal $transition-function-easeout
 $transition-slow-easeout: $transition-time-slow $transition-function-easeout !default;
 $transition-slower-easeout: $transition-time-slower $transition-function-easeout !default;
 
-$transition-faster-easeinout: $transition-time-faster $transition-function-easeinout !default;
+$transition-faster-easeinout: $transition-time-faster
+  $transition-function-easeinout !default;
 $transition-fast-easeinout: $transition-time-fast $transition-function-easeinout !default;
-$transition-normal-easeinout: $transition-time-normal $transition-function-easeinout !default;
+$transition-normal-easeinout: $transition-time-normal
+  $transition-function-easeinout !default;
 $transition-slow-easeinout: $transition-time-slow $transition-function-easeinout !default;
-$transition-slower-easeinout: $transition-time-slower $transition-function-easeinout !default;
+$transition-slower-easeinout: $transition-time-slower
+  $transition-function-easeinout !default;

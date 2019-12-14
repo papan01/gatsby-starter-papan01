@@ -11,7 +11,7 @@ const PostCard = ({ data }) => {
   const isMobile = useIsMobile();
   return (
     <article className="post-card">
-      {!isMobile && <Img fluid={data.cover.childImageSharp.fluid} className="post-card-cover" loading="lazy" />}
+      {!isMobile && <Img fluid={{ ...data.cover.childImageSharp.fluid }} className="post-card-cover" />}
       <PostText
         category={data.category}
         date={data.date}

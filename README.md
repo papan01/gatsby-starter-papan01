@@ -27,7 +27,6 @@ See the starter in action » [Demo WebSite](https://gatsby-starter-papan01.netli
 
 ## ⛩ Features
 - React Hooks
-- SSR React Code Splitting([loadable-components](https://github.com/gregberge/loadable-components))
 - Theme Toggle(light/dark)
 
 Light                  | Dark

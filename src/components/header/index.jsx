@@ -1,9 +1,10 @@
 /* eslint-disable no-underscore-dangle */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import classNames from 'classnames';
+import ThemeContext from '../../context';
 import Logo from '../../../static/favicons/logo.png';
 import Dark from '../../../static/material/moon.png';
 import Light from '../../../static/material/sun.png';
@@ -33,33 +34,19 @@ NavList.propTypes = {
 };
 
 const ThemeToggle = () => {
-  let websiteTheme;
-  if (typeof window !== `undefined`) {
-    websiteTheme = window.__theme;
-  }
-  const [theme, setTheme] = useState(websiteTheme);
-
-  useEffect(() => {
-    if (typeof window !== `undefined`) {
-      setTheme(window.__theme);
-      window.__onThemeChange = () => {
-        setTheme(window.__theme);
-      };
-    }
-  }, [theme]);
-
+  const themeContext = useContext(ThemeContext);
   const themeToggle = () => {
-    window.__setPreferredTheme(theme === 'dark' ? 'light' : 'dark');
+    window.__setPreferredTheme(themeContext.theme === 'dark' ? 'light' : 'dark');
   };
 
   const toggleStyle = classNames({
     'theme-toggle': true,
-    'theme-toggle--checked': theme === 'dark',
+    'theme-toggle--checked': themeContext.theme === 'dark',
   });
   return (
     <div
       role="checkbox"
-      aria-checked={theme === 'dark'}
+      aria-checked={themeContext.theme === 'dark'}
       aria-label="theme-toggle"
       tabIndex="-1"
       className={toggleStyle}
@@ -70,7 +57,7 @@ const ThemeToggle = () => {
         meta={[
           {
             name: 'theme-color',
-            content: theme === 'light' ? '#fff' : '#282c35',
+            content: themeContext.theme === 'light' ? '#fff' : '#282c35',
           },
         ]}
       />

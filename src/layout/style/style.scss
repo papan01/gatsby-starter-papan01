@@ -1,10 +1,10 @@
 @import "./base/setting";
 @import "./base/normalize";
 @import "./theme/themes";
-@import './fonts/fontawesome/scss/solid.scss';
-@import './fonts/fontawesome/scss/brands.scss';
-@import './fonts/fontawesome/scss/fontawesome.scss';
-@import './fonts/Rubik/scss/fonts';
+@import "./fonts/fontawesome/scss/solid.scss";
+@import "./fonts/fontawesome/scss/brands.scss";
+@import "./fonts/fontawesome/scss/fontawesome.scss";
+@import "./fonts/Rubik/scss/fonts";
 @import "./base/breakpoints";
 @import "./layout/layout";
 
@@ -48,11 +48,11 @@ h2 {
   display: flex;
   font-size: $header-size-2;
   margin: $base-relative-spacing-unit / 2 0;
-  color: var(--pink2);
+  color: var(--header-h2);
 
   &:after {
     content: " ";
-    background: linear-gradient(to right, var(--pink2), var(--bg1));
+    background: linear-gradient(to right, var(--header-h2), var(--bg1));
     height: $base-border;
     width: auto;
     flex-grow: 1;
@@ -83,6 +83,7 @@ li {
 
 ol,
 ul {
+  padding-inline-start: 0;
   list-style-image: none;
   list-style-type: none;
 }

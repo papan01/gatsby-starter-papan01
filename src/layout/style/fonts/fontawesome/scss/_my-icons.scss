@@ -1,14 +1,42 @@
-.#{$fa-css-prefix}-github:before { content: fa-content($fa-var-github); }
-.#{$fa-css-prefix}-envelope:before { content: fa-content($fa-var-envelope); }
-.#{$fa-css-prefix}-facebook:before { content: fa-content($fa-var-facebook); }
-.#{$fa-css-prefix}-instagram:before { content: fa-content($fa-var-instagram); }
-.#{$fa-css-prefix}-book-open:before { content: fa-content($fa-var-book-open); }
-.#{$fa-css-prefix}-list-alt:before { content: fa-content($fa-var-list-alt); }
-.#{$fa-css-prefix}-address-card:before { content: fa-content($fa-var-address-card); }
-.#{$fa-css-prefix}-arrow-up:before { content: fa-content($fa-var-arrow-up); }
-.#{$fa-css-prefix}-arrow-right:before { content: fa-content($fa-var-arrow-right); }
-.#{$fa-css-prefix}-arrow-left:before { content: fa-content($fa-var-arrow-left); }
-.#{$fa-css-prefix}-bars:before { content: fa-content($fa-var-bars); }
-.#{$fa-css-prefix}-times:before { content: fa-content($fa-var-times); }
-.#{$fa-css-prefix}-calendar-alt:before { content: fa-content($fa-var-calendar-alt); }
-.#{$fa-css-prefix}-rss:before { content: fa-content($fa-var-rss); }
+.#{$fa-css-prefix}-github:before {
+  content: fa-content($fa-var-github);
+}
+.#{$fa-css-prefix}-envelope:before {
+  content: fa-content($fa-var-envelope);
+}
+.#{$fa-css-prefix}-facebook:before {
+  content: fa-content($fa-var-facebook);
+}
+.#{$fa-css-prefix}-instagram:before {
+  content: fa-content($fa-var-instagram);
+}
+.#{$fa-css-prefix}-book-open:before {
+  content: fa-content($fa-var-book-open);
+}
+.#{$fa-css-prefix}-list-alt:before {
+  content: fa-content($fa-var-list-alt);
+}
+.#{$fa-css-prefix}-address-card:before {
+  content: fa-content($fa-var-address-card);
+}
+.#{$fa-css-prefix}-arrow-up:before {
+  content: fa-content($fa-var-arrow-up);
+}
+.#{$fa-css-prefix}-arrow-right:before {
+  content: fa-content($fa-var-arrow-right);
+}
+.#{$fa-css-prefix}-arrow-left:before {
+  content: fa-content($fa-var-arrow-left);
+}
+.#{$fa-css-prefix}-bars:before {
+  content: fa-content($fa-var-bars);
+}
+.#{$fa-css-prefix}-times:before {
+  content: fa-content($fa-var-times);
+}
+.#{$fa-css-prefix}-calendar-alt:before {
+  content: fa-content($fa-var-calendar-alt);
+}
+.#{$fa-css-prefix}-rss:before {
+  content: fa-content($fa-var-rss);
+}

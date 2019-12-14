@@ -70,14 +70,14 @@ export const pageQuery = graphql`
           fields {
             slug
           }
-          excerpt
+          excerpt(pruneLength: 120)
           timeToRead
           frontmatter {
             title
             tags
             cover {
               childImageSharp {
-                fluid(maxWidth: 380, maxHeight: 275) {
+                fluid(maxWidth: 400, maxHeight: 275) {
                   ...GatsbyImageSharpFluid
                 }
               }

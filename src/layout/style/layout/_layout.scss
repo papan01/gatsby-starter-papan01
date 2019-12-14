@@ -1,32 +1,32 @@
 .container {
-    max-width: $site-max-width;
-    margin-left: auto;
-    margin-right:auto;
+  max-width: $site-max-width;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-wrap {
-    @extend .container;
-    margin-top: $spacing-xlarge; 
+  @extend .container;
+  margin-top: $spacing-xlarge;
 
-    @include media-breakpoint-down($breakpoint-sm) {
-        padding: $spacing-small;
-    }
+  @include media-breakpoint-down($breakpoint-sm) {
+    padding: $spacing-small;
+  }
 }
 
 .text-center {
-    text-align: center; 
+  text-align: center;
 }
 
 .post-category {
-    margin: $spacing-small $spacing-small 0 0;
-    padding: 5px;
-    display: inline-block;
-    box-shadow: 0 0 $spacing-xsmall var( --category-border);
-    border-radius: $base-border-radius * 5;
-    transition: all $transition-faster-easein;
-    &:hover {
-       color:var(--invert2);
-       background: var(--invert1);
-       box-shadow: 0 0 $spacing-large var( --category-border);
-    }
+  margin: $spacing-small $spacing-small 0 0;
+  padding: 5px;
+  display: inline-block;
+  box-shadow: 0 0 $spacing-xsmall var(--category-border);
+  border-radius: $base-border-radius * 5;
+  transition: all $transition-faster-easein;
+  &:hover {
+    color: var(--invert2);
+    background: var(--invert1);
+    box-shadow: 0 0 $spacing-large var(--category-border);
+  }
 }

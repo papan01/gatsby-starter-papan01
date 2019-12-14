@@ -40,7 +40,11 @@ $z-index: 10;
       position: absolute;
       top: $top-bar-height;
       left: 0;
-      background: linear-gradient(to right, var(--subtle-top1), var(--subtle-top2));
+      background: linear-gradient(
+        to right,
+        var(--subtle-top1),
+        var(--subtle-top2)
+      );
       z-index: $z-index;
       width: 100%;
       height: calc(100vh - #{$top-bar-height});
