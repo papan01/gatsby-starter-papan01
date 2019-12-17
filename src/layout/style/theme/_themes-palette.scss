@@ -30,7 +30,9 @@ $palette: (
     --hover-top-icon: #df1c31,
     --post-card-hover: var(--black),
     --category-border: #757575,
-    --tag-border: #212121
+    --tag-border: #212121,
+    --warning:#e75b7e,
+    --info:#6200EE,
   ),
   dark: (
     --bg1: #282c35,
@@ -52,6 +54,8 @@ $palette: (
     --hover-top-icon: #ffcf44,
     --post-card-hover: var(--text-color),
     --category-border: var(--yellow1),
-    --tag-border: #03dac6
+    --tag-border: #03dac6,
+    --warning:#FFC400,
+    --info:#009688,
   )
 );

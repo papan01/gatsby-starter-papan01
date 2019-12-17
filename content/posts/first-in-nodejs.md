@@ -27,6 +27,11 @@ if (3) {
 scanner(1, ram_wddm(map, reader + 3, ole_install));
 ```
 
+[[warning]]
+| obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
+| ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
+| animalia praeceps Meleagre grege.
+
 ## In nunc
 
 Superinposita dira me Iove, lanigeris tendunt! Illis gladii, in pignusque dixit
@@ -46,6 +51,11 @@ secus aethera umentes vidisse terrae sororum laboris, fraterno.
 Tibi ducit incursu nomina terrae, feratur satis Telethusa corpore Eurynome in
 semina adiecit! Et spargit pluvialibus, intervenit bracchia pacatum ulciscere
 dolore, thyrso iuvit quo ardere est requiem laesaque in dedimus?
+
+[[info]]
+| obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
+| ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
+| animalia praeceps Meleagre grege.
 
 ## Est in sit suos fessa
 

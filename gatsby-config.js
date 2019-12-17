@@ -32,6 +32,19 @@ module.exports = {
             },
           },
           {
+            resolve: 'gatsby-remark-custom-blocks',
+            options: {
+              blocks: {
+                info: {
+                  classes: 'info',
+                },
+                warning: {
+                  classes: 'warning',
+                },
+              },
+            },
+          },
+          {
             resolve: `gatsby-remark-autolink-headers`,
             options: {
               className: `auto-link`,

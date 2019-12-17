@@ -1,3 +1,16 @@
+$alertStyles: (
+  warning: (
+    theme: var(--warning),
+    icon: "!",
+    sharp: polygon(50% 0, 0 100%, 100% 100%),
+  ),
+  info: (
+    theme: var(--info),
+    icon: "i",
+    sharp: circle(50% at 50% 50%),
+  ),
+);
+
 .markdowm-body {
   font-size: $base-relative-font-size * 1.5;
   color: var(--text-color);
@@ -99,5 +112,49 @@
 
   table > tbody > tr > td {
     border-bottom: $base-border / 3 solid var(--yellow2);
+  }
+
+  .custom-block {
+    position: relative;
+    margin: $spacing-large 0;
+    padding: 0.8em 1em;
+    text-align: center;
+    line-height: 1.2;
+    background: rgba(247,168,139,.15);
+    border-left: 4px solid rgba(247,168,139,.45);
+    clear: both;
+    &::before {
+      display: inline-flex;
+      justify-content: center;
+      align-items: flex-end;
+      position: absolute;
+      font-weight: $font-weight-bold;
+      font-size: $font-medium * 1.4;
+      width: 35px;
+      height: 35px;
+      left: -$spacing-normal * 1.2;
+      top: -$spacing-normal;
+
+      @include media-breakpoint-down($breakpoint-sm) {
+        align-items: flex-end;
+        font-size: $font-medium * 2;
+        left: -$spacing-normal * 1.6;
+        top: -$spacing-normal * 1.5;
+      }
+    }
+
+    @each $state, $property in $alertStyles {
+      $theme: map-get($property, theme);
+      $icon: map-get($property, icon);
+      $sharp: map-get($property, sharp);
+      
+      &.#{$state}:before { 
+        content: $icon;
+        color: var(--bg1);
+        background: $theme;
+        -webkit-clip-path: $sharp;
+        clip-path: $sharp;
+      }
+    }
   }
 }
