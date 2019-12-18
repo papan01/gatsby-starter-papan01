@@ -4,9 +4,9 @@ cover: "../images/8.webp"
 date: "2017-01-01"
 category: "tech"
 tags:
-    - programming
-    - stuff
-    - other
+  - programming
+  - stuff
+  - other
 ---
 
 # Quanto et ius coniunctis urbes

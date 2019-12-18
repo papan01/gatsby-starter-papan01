@@ -4,7 +4,7 @@ cover: "../images/1.webp"
 date: "2017-03-01"
 category: "tech"
 tags:
-    - test
+  - test
 ---
 
 # Domos primus caelum taedia

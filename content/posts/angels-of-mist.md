@@ -4,8 +4,8 @@ cover: "../images/6.webp"
 category: "test3"
 date: "2017-03-01"
 tags:
-    - cheese
-    - other
+  - cheese
+  - other
 ---
 
 # Ab dicemur cura
@@ -62,10 +62,10 @@ Ille non revelli o dignare, scelus, loqui Solis quid flebam! Terras in Ixione
 temeraria Orphea pectora. Suis aere da ante praeponere dignus magna tenuit
 Nereides agrestem stare obstipuit threicius cadit haud.
 
-* Iam legebantur inter tum sensit enim similis
-* Vite ferus purpureum videt quo inferius dextra
-* Adsiluit iuvenes eduxit uno velle bene mora
-* Dilectaque aetatis interitura feritate
+- Iam legebantur inter tum sensit enim similis
+- Vite ferus purpureum videt quo inferius dextra
+- Adsiluit iuvenes eduxit uno velle bene mora
+- Dilectaque aetatis interitura feritate
 
 Sit aequore Haec Troum falleret Ismenides _cortice animam_ est quoque Aeacus.
 Inmittite hostem, succinctis insuper lentisciferumque Cerealis

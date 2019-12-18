@@ -9,7 +9,7 @@
   margin-top: $spacing-xlarge;
 
   @include media-breakpoint-between($breakpoint-sm, $breakpoint-md) {
-    padding: $spacing-normal * 2.0;
+    padding: $spacing-normal * 2;
   }
 
   @include media-breakpoint-down($breakpoint-sm) {

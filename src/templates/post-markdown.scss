@@ -2,13 +2,13 @@ $alertStyles: (
   warning: (
     theme: var(--warning),
     icon: "!",
-    sharp: polygon(50% 0, 0 100%, 100% 100%),
+    sharp: polygon(50% 0, 0 100%, 100% 100%)
   ),
   info: (
     theme: var(--info),
     icon: "i",
-    sharp: circle(50% at 50% 50%),
-  ),
+    sharp: circle(50% at 50% 50%)
+  )
 );
 
 .markdowm-body {
@@ -120,8 +120,8 @@ $alertStyles: (
     padding: 0.8em 1em;
     text-align: center;
     line-height: 1.2;
-    background: rgba(247,168,139,.15);
-    border-left: 4px solid rgba(247,168,139,.45);
+    background: rgba(247, 168, 139, 0.15);
+    border-left: 4px solid rgba(247, 168, 139, 0.45);
     clear: both;
     &::before {
       display: inline-flex;
@@ -147,8 +147,8 @@ $alertStyles: (
       $theme: map-get($property, theme);
       $icon: map-get($property, icon);
       $sharp: map-get($property, sharp);
-      
-      &.#{$state}:before { 
+
+      &.#{$state}:before {
         content: $icon;
         color: var(--bg1);
         background: $theme;

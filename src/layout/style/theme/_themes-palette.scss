@@ -6,7 +6,7 @@
   --blue1: #0072bb;
   --yellow1: #efbb35;
   --yellow2: rgb(245, 222, 179);
-  --red1:#C62828;
+  --red1: #c62828;
 }
 
 $palette: (
@@ -25,14 +25,14 @@ $palette: (
     --subtle-h1-1: #ef9a9a,
     --subtle-h1-2: #e53935,
     --subtle-h1-3: #b71c1c,
-    --header-h2:rgb(0, 143, 131),
+    --header-h2: rgb(0, 143, 131),
     --hover-top: #8bc34a,
     --hover-top-icon: #df1c31,
     --post-card-hover: var(--black),
     --category-border: #757575,
     --tag-border: #212121,
-    --warning:#e75b7e,
-    --info:#6200EE,
+    --warning: #e75b7e,
+    --info: #6200ee
   ),
   dark: (
     --bg1: #282c35,
@@ -49,13 +49,13 @@ $palette: (
     --subtle-h1-1: #a7ffeb,
     --subtle-h1-2: #1de9b6,
     --subtle-h1-3: #00bfa5,
-    --header-h2:#ff7597,
+    --header-h2: #ff7597,
     --hover-top: #424242,
     --hover-top-icon: #ffcf44,
     --post-card-hover: var(--text-color),
     --category-border: var(--yellow1),
     --tag-border: #03dac6,
-    --warning:#FFC400,
-    --info:#009688,
+    --warning: #ffc400,
+    --info: #009688
   )
 );

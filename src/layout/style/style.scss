@@ -14,7 +14,7 @@ html {
   @include media-breakpoint-between($breakpoint-sm, $breakpoint-md) {
     font-size: $font-small;
   }
-  
+
   @include media-breakpoint-down($breakpoint-sm) {
     font-size: $font-xsmall;
   }

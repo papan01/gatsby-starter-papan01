@@ -21,7 +21,6 @@ _Talibus ausis_.
 | obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
 | ambrosiam tendens, saecula tenet, conpo
 
-
 ## Vultusque subsequitur Pallas regis datis inde animaque
 
 At securim cautum capitis, creatos sanguinis turbant iam concita videor, edere.
@@ -38,7 +37,7 @@ Peleus Aeneadae audacia cruentatis turbae Procrin dirum bacae, accede.
 
 [[info]]
 | Nec pro mea pariter, ictus iam consequitur capillos elegit ego; quoniam **fuit**. Aether
-| Peleus Aeneadae audacia cruentatis turbae Procrin dirum 
+| Peleus Aeneadae audacia cruentatis turbae Procrin dirum
 
 ## Fortis dextrae humo limina Tempus singultibus illa
 
