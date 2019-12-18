@@ -27,6 +27,8 @@ A Gatsby blog starter. The theme is controlled yourself.
 
 See the starter in action » [Demo WebSite](https://gatsby-starter-papan01.netlify.com/)
 
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/papan01/gatsby-starter-papan01"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
+
 ## ⛩ Features
 
 - React Hooks
