@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: master
-  repo: papan01/gatsby-starter-papan01
 
 media_folder: content/images
 public_folder: /images
