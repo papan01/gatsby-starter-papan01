@@ -9,13 +9,15 @@
   <a href="https://github.com/papan01/gatsby-starter-papan01/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/papan01/gatsby-starter-papan01" alt="license" />
   </a>
-  <a href="https://gatsby-starter-papan01.netlify.com/">
-    <img src="https://img.shields.io/netlify/b6aa1884-5694-41a3-90c7-e028a42788ec" alt="netlify" />
+  <a href="https://app.netlify.com/sites/gatsby-starter-papan01/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/c40f4552-a79a-4f20-9ab6-4ab18c96aac6/deploy-status" alt="netlify" />
   </a>
   <a href="https://www.codacy.com/manual/papan01/gatsby-starter-papan01?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=papan01/gatsby-starter-papan01&amp;utm_campaign=Badge_Grade">
     <img src="https://img.shields.io/codacy/grade/6787238016a7467ea2e8d8b0b4a9e6b7" alt="codacy" />
   </a>
 </div>
+
+
 
 <h1 align="center">
   Papan01 Gatsby Starter
