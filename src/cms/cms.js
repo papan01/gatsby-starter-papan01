@@ -1,6 +1,6 @@
 import CMS from 'netlify-cms-app';
 import '../layout/style/style.scss';
-import '../templates/post.scss';
+import './preview-templates/style.scss';
 import uploadcare from 'netlify-cms-media-library-uploadcare';
 import cloudinary from 'netlify-cms-media-library-cloudinary';
 import PostPreview from './preview-templates/postPreview';

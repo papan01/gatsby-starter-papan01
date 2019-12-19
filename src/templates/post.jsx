@@ -43,28 +43,6 @@ const PostPrevNext = ({ prev, next }) => {
   );
 };
 
-export const PostTemplate = ({ category, date, title, tags, image, html }) => {
-  return (
-    <main className="page-wrap">
-      <PostText category={category} date={date} timeToRead="0" wrapClass="post-head" head={title}>
-        {tags && <PostTags tags={tags} />}
-      </PostText>
-      <hr />
-      {image && <img style={{ maxWidth: '800px', maxHeight: '400px' }} src={image} alt="preview" />}
-      <div className="markdowm-body" dangerouslySetInnerHTML={{ __html: html }} />
-    </main>
-  );
-};
-
-PostTemplate.propTypes = {
-  category: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  tags: PropTypes.arrayOf(PropTypes.string).isRequired,
-  image: PropTypes.string.isRequired,
-  html: PropTypes.string.isRequired,
-};
-
 const Post = ({ data, pageContext }) => {
   const post = data.markdownRemark;
   const { html, excerpt, timeToRead, frontmatter } = post;
