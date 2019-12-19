@@ -47,10 +47,10 @@ export const PostTemplate = ({ category, date, title, tags, image, html }) => {
   return (
     <main className="page-wrap">
       <PostText category={category} date={date} timeToRead="0" wrapClass="post-head" head={title}>
-        <PostTags tags={tags} />
+        {tags && <PostTags tags={tags} />}
       </PostText>
       <hr />
-      <img style={{ maxWidth: '800px', maxHeight: '400px' }} src={image} alt="preview" />
+      {image && <img style={{ maxWidth: '800px', maxHeight: '400px' }} src={image} alt="preview" />}
       <div className="markdowm-body" dangerouslySetInnerHTML={{ __html: html }} />
     </main>
   );
