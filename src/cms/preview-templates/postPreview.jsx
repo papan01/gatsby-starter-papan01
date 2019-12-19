@@ -11,7 +11,7 @@ export const PostTemplate = ({ category, date, title, tags, image, html }) => {
       </PostText>
       <hr />
       {image && <img style={{ maxWidth: '800px', maxHeight: '400px' }} src={image} alt="preview" />}
-      <div className="markdowm-body" dangerouslySetInnerHTML={{ __html: html }} />
+      <div className="markdowm-body">{html}</div>
     </main>
   );
 };

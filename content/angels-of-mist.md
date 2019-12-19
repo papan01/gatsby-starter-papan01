@@ -1,6 +1,6 @@
 ---
 title: "Angels of Mist"
-cover: "../images/6.webp"
+cover: "/static/images/6.webp"
 category: "test3"
 date: "2017-03-01"
 tags:

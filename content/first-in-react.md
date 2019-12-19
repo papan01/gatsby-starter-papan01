@@ -1,10 +1,10 @@
 ---
-title: "Test Pagination 3"
+title: "First in React"
 date: "2018-11-09"
 category: "FrontEnd"
-cover: "../images/3.webp"
+cover: "/static/images/2.webp"
 tags:
-  - test
+  - react
 ---
 
 # Quanto et ius coniunctis urbes
@@ -16,6 +16,10 @@ obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
 ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
 animalia praeceps Meleagre greges venisse corpore et ignara, umquam ipse? Quam
 _Talibus ausis_.
+
+[[warning]]
+| obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
+| ambrosiam tendens, saecula tenet, conpo
 
 ## Vultusque subsequitur Pallas regis datis inde animaque
 
@@ -30,6 +34,10 @@ Peleus Aeneadae audacia cruentatis turbae Procrin dirum bacae, accede.
     python.raw_backlink = rfid_load - 4;
     kibibyte *= cdnThumbnailUri;
 ```
+
+[[info]]
+| Nec pro mea pariter, ictus iam consequitur capillos elegit ego; quoniam **fuit**. Aether
+| Peleus Aeneadae audacia cruentatis turbae Procrin dirum
 
 ## Fortis dextrae humo limina Tempus singultibus illa
 

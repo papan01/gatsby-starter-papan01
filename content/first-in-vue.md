@@ -1,10 +1,10 @@
 ---
-title: "First in JavaScript"
-date: "2019-11-11"
+title: "First in Vue.js"
+date: "2019-11-12"
 category: "FrontEnd"
-cover: "../images/3.webp"
+cover: "/static/images/4.webp"
 tags:
-  - javascript
+  - vue
 ---
 
 # Quanto et ius coniunctis urbes
@@ -17,7 +17,7 @@ ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
 animalia praeceps Meleagre greges venisse corpore et ignara, umquam ipse? Quam
 _Talibus ausis_.
 
-[[warning]]
+[[info]]
 | obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
 | ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
 | animalia praeceps Meleagre grege.
@@ -36,7 +36,7 @@ Peleus Aeneadae audacia cruentatis turbae Procrin dirum bacae, accede.
     kibibyte *= cdnThumbnailUri;
 ```
 
-[[info]]
+[[warning]]
 | obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
 | ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
 | animalia praeceps Meleagre grege.

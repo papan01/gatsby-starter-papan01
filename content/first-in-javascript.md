@@ -1,10 +1,10 @@
 ---
-title: "First in React"
-date: "2018-11-09"
+title: "First in JavaScript"
+date: "2019-11-11"
 category: "FrontEnd"
-cover: "../images/2.webp"
+cover: "/static/images/3.webp"
 tags:
-  - react
+  - javascript
 ---
 
 # Quanto et ius coniunctis urbes
@@ -19,7 +19,8 @@ _Talibus ausis_.
 
 [[warning]]
 | obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
-| ambrosiam tendens, saecula tenet, conpo
+| ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
+| animalia praeceps Meleagre grege.
 
 ## Vultusque subsequitur Pallas regis datis inde animaque
 
@@ -36,8 +37,9 @@ Peleus Aeneadae audacia cruentatis turbae Procrin dirum bacae, accede.
 ```
 
 [[info]]
-| Nec pro mea pariter, ictus iam consequitur capillos elegit ego; quoniam **fuit**. Aether
-| Peleus Aeneadae audacia cruentatis turbae Procrin dirum
+| obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
+| ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
+| animalia praeceps Meleagre grege.
 
 ## Fortis dextrae humo limina Tempus singultibus illa
 

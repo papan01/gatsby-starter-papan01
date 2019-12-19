@@ -1,11 +1,10 @@
 ---
-title: "First in NodeJS"
-date: "2019-11-10"
-category: "BackEnd"
-cover: "../images/1.webp"
+title: "The Fallen Time"
+cover: "/static/images/7.webp"
+date: "2017-02-01"
+category: "another one"
 tags:
-  - nodejs
-  - javascript
+  - test
 ---
 
 # Autolyci eminus retenta
@@ -15,7 +14,7 @@ tags:
 Lorem markdownum huc suo ara, dubites celeri mihi bicolor. Secuti non? Suo opus
 quales dant, puppim hanc!
 
-```javascript
+```js
 enterprise /= mp_operating_quad;
 dsl_runtime.wired_horizontal_jquery = vramUs(64389, aix / socialSector + quad);
 if (3) {
@@ -26,11 +25,6 @@ if (3) {
 }
 scanner(1, ram_wddm(map, reader + 3, ole_install));
 ```
-
-[[warning]]
-| obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
-| ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
-| animalia praeceps Meleagre grege.
 
 ## In nunc
 
@@ -51,11 +45,6 @@ secus aethera umentes vidisse terrae sororum laboris, fraterno.
 Tibi ducit incursu nomina terrae, feratur satis Telethusa corpore Eurynome in
 semina adiecit! Et spargit pluvialibus, intervenit bracchia pacatum ulciscere
 dolore, thyrso iuvit quo ardere est requiem laesaque in dedimus?
-
-[[info]]
-| obliquum erigitur gemmae utque cur natus, aera supplice de nudae. Manus
-| ambrosiam tendens, saecula tenet, conponere et ense et cucurri. Tantique
-| animalia praeceps Meleagre grege.
 
 ## Est in sit suos fessa
 

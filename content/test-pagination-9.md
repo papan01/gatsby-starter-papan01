@@ -1,8 +1,8 @@
 ---
-title: "Test Pagination 12"
+title: "Test Pagination 9"
 date: "2018-11-09"
 category: "FrontEnd"
-cover: "../images/4.webp"
+cover: "/static/images/1.webp"
 tags:
   - test
 ---

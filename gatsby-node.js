@@ -1,10 +1,13 @@
 const path = require(`path`);
 const _ = require('lodash');
 
+const { fmImagesToRelative } = require('gatsby-remark-relative-images');
+
 const { createFilePath } = require(`gatsby-source-filesystem`);
 const config = require('./config/siteConfig');
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
+  fmImagesToRelative(node);
   const { createNodeField } = actions;
   if (node.internal.type === `MarkdownRemark`) {
     const filePath = createFilePath({ node, getNode });

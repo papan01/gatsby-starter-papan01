@@ -1,12 +1,10 @@
 ---
-title: "Bold Mage"
-cover: "../images/8.webp"
-date: "2017-01-01"
-category: "tech"
+title: "Test Pagination 1"
+date: "2018-11-09"
+category: "FrontEnd"
+cover: "/static/images/1.webp"
 tags:
-  - programming
-  - stuff
-  - other
+  - test
 ---
 
 # Quanto et ius coniunctis urbes

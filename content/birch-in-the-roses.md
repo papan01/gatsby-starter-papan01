@@ -1,6 +1,6 @@
 ---
 title: "Birch in the Roses"
-cover: "../images/1.webp"
+cover: "/static/images/1.webp"
 date: "2017-03-01"
 category: "tech"
 tags:
