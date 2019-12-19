@@ -17,8 +17,6 @@
   </a>
 </div>
 
-
-
 <h1 align="center">
   Papan01 Gatsby Starter
 </h1>
