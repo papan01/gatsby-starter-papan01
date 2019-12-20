@@ -2,7 +2,7 @@
 title: "First in Vue.js"
 date: "2019-11-12"
 category: "FrontEnd"
-cover: "/static/images/4.webp"
+cover: "/images/4.webp"
 tags:
   - vue
 ---

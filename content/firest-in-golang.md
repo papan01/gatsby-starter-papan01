@@ -2,7 +2,7 @@
 title: "First in Golang"
 date: "2019-11-13"
 category: "BackEnd"
-cover: "/static/images/1.webp"
+cover: "/images/1.webp"
 tags:
   - golang
 ---

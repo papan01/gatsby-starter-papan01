@@ -1,6 +1,6 @@
 ---
 title: "Bold Mage"
-cover: "/static/images/8.webp"
+cover: "/images/8.webp"
 date: "2017-01-01"
 category: "tech"
 tags:

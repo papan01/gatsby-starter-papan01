@@ -2,7 +2,7 @@
 title: "First in JavaScript"
 date: "2019-11-11"
 category: "FrontEnd"
-cover: "/static/images/3.webp"
+cover: "/images/3.webp"
 tags:
   - javascript
 ---

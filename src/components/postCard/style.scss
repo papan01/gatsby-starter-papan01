@@ -9,7 +9,7 @@ $card-height: 275px;
   margin: $spacing-normal;
   grid-template-columns: 1fr 2fr;
   grid-gap: $relative-spacing-xlarge;
-  height: $card-height;
+  min-height: $card-height;
   border-radius: $base-border-radius * 4;
   box-shadow: $spacing-normal 0 $spacing-large var(--black);
   transition: all $transition-faster-easein;
@@ -55,6 +55,6 @@ $card-height: 275px;
   @include media-breakpoint-down($breakpoint-sm) {
     display: flex;
     font-size: $font-medium * 1.3;
-    height: $card-height - 40;
+    min-height: $card-height - 40;
   }
 }

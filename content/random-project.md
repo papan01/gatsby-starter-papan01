@@ -1,6 +1,6 @@
 ---
 title: "Random project 4 With Super Long Title Phase One"
-cover: "/static/images/4.webp"
+cover: "/images/4.webp"
 category: "random"
 date: "2017-03-02"
 tags:

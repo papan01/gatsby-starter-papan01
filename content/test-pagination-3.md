@@ -2,7 +2,7 @@
 title: "Test Pagination 3"
 date: "2018-11-09"
 category: "FrontEnd"
-cover: "/static/images/3.webp"
+cover: "/images/3.webp"
 tags:
   - test
 ---
