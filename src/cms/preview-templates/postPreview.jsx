@@ -4,14 +4,16 @@ import PostText from '../../components/postText';
 import PostTags from '../../components/postTags';
 
 export const PostTemplate = ({ category, date, title, tags, image, html }) => {
+  const DefaultTitle = 'Template Title';
+  const DefaultDate = new Date().toISOString();
   return (
     <main className="post-preview">
-      <PostText category={category} date={date} timeToRead="0" wrapClass="post-head" head={title}>
-        {tags && <PostTags tags={tags} />}
+      <PostText category={category} date={date || DefaultDate} wrapClass="post-head" head={title || DefaultTitle}>
+        <PostTags tags={tags} />
       </PostText>
       <hr />
-      <img style={{ maxWidth: '800px', maxHeight: '400px' }} src={image} alt="preview" />
-      <div className="markdowm-body">{html}</div>
+      {image && <img style={{ maxWidth: '800px', maxHeight: '400px' }} src={image} alt="preview" />}
+      {html && <div className="markdowm-body">{html}</div>}
     </main>
   );
 };

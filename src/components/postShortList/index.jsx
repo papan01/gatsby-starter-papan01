@@ -13,7 +13,11 @@ const postShortList = ({ data }) => {
             {field.posts.map(post => (
               <li key={post.slug}>
                 <div className="post-date-timetoread">
-                  <p>{post.date}</p>
+                  <p>
+                    {Number.isNaN(post.date) === false
+                      ? new Date(post.date).toISOString().slice(0, 10)
+                      : new Date().toISOString().slice(0, 10)}
+                  </p>
                   <p>{`☕️ ${post.timeToRead} min read`}</p>
                 </div>
                 <Link to={post.slug}>{post.title}</Link>
