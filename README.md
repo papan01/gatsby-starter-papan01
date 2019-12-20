@@ -49,6 +49,11 @@ See the starter in action » [Demo WebSite](https://gatsby-starter-papan01.netli
   - ESLint(Airbnb) for linting
   - Prettier code formatting
   - gh-pages for deploying to GitHub pages
+-Netlify CMS
+  - gatsby-plugin-netlify-cms
+  - custom Previews
+
+![](docs/editor-preview.png)
 
 ## 🚀 Getting Start
 
