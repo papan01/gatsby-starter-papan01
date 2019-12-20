@@ -4,13 +4,15 @@ import PostText from '../../components/postText';
 import PostTags from '../../components/postTags';
 
 export const PostTemplate = ({ category, date, title, tags, image, html }) => {
+  let cover = image;
+  cover = cover.replace('/static/', '');
   return (
     <main className="post-preview">
       <PostText category={category} date={date} timeToRead="0" wrapClass="post-head" head={title}>
         {tags && <PostTags tags={tags} />}
       </PostText>
       <hr />
-      {image && <img style={{ maxWidth: '800px', maxHeight: '400px' }} src={image} alt="preview" />}
+      <img style={{ maxWidth: '800px', maxHeight: '400px' }} src={cover} alt="preview" />
       <div className="markdowm-body">{html}</div>
     </main>
   );

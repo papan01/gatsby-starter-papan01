@@ -56,7 +56,7 @@ const Post = ({ data, pageContext }) => {
         <PostTags tags={tags} />
       </PostText>
       <hr />
-      <Img fluid={cover.childImageSharp.fluid} />
+      {cover && <Img fluid={cover.childImageSharp.fluid} />}
       <div className="markdowm-body" dangerouslySetInnerHTML={{ __html: html }} />
       <PostPrevNext prev={prev} next={next} />
       <Disqus slug={slug} title={title} />
