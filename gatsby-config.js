@@ -50,7 +50,12 @@ module.exports = {
               className: `auto-link`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: true,
+            },
+          },
         ],
       },
     },

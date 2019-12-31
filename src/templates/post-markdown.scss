@@ -53,6 +53,9 @@ $alertStyles: (
 
   ol {
     counter-reset: ol-counter;
+    list-style-position: outside;
+    text-indent: -1em;
+    padding-left: 1em;
     > li {
       counter-increment: ol-counter;
 
@@ -66,6 +69,10 @@ $alertStyles: (
         font-weight: $font-weight-bold;
       }
     }
+  }
+
+  .gatsby-resp-image-wrapper {
+    margin: $relative-spacing-normal 0;
   }
 
   ul > li {
@@ -158,3 +165,31 @@ $alertStyles: (
     }
   }
 }
+
+.gatsby-highlight {
+  border-radius: 0.3em;
+  margin: 0.5em 0;
+  padding: 1em;
+  pre[class*="language-"] {
+    padding: 0;
+    overflow: scroll;
+    min-width: 100%; /* 2 */
+    &.line-numbers {
+      padding-left: 2.8em;
+    }
+  }
+
+  .gatsby-highlight-code-line {
+    background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+    display: block;
+    margin-right: -1em;
+    margin-left: -1em;
+    padding-right: 1em;
+    padding-left: 0.75em;
+    border-left: 0.25em solid rgb(255, 248, 153);
+  }
+}
+
+
+
+
