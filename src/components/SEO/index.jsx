@@ -26,21 +26,23 @@ const query = graphql`
 const SEO = ({ title, description, image, path, articleDate }) => (
   <StaticQuery
     query={query}
-    render={site => {
-      const {
-        author,
-        siteUrl,
-        siteLanguage,
-        siteTitleAlt,
-        defaultTitle,
-        defaultDescription,
-        defaultImage,
-        datePublished,
-        copyrightYear,
-        twitterUsername,
-        fbAppId,
-      } = site.siteMetadata;
-
+    render={({
+      site: {
+        siteMetadata: {
+          author,
+          siteUrl,
+          siteLanguage,
+          siteTitleAlt,
+          defaultTitle,
+          defaultDescription,
+          defaultImage,
+          datePublished,
+          copyrightYear,
+          twitterUsername,
+          fbAppId,
+        },
+      },
+    }) => {
       const date = new Date(articleDate).toISOString();
 
       const seo = {
