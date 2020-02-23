@@ -158,12 +158,15 @@ const SEO = ({ title, description, image, path, articleDate }) => {
       <link rel="canonical" href={`${seo.url}`} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      {/*Google / Search Engine Tags*/}
+      <meta itemprop="name" content={seo.title}/>
+      <meta itemprop="description" content={seo.description}/>
+      <meta itemprop="image" content={seo.image}/>
       {/* Schema.org */}
       {!articleDate && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
       {articleDate && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
       <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
       {/* OpenGraph */}
-      <meta property="og:site_name" content={defaultTitle} />
       <meta property="og:url" content={seo.url} />
       {articleDate ? <meta property="og:type" content="article" /> : <meta property="og:type" content="website" />}
       <meta property="og:title" content={seo.title} />
