@@ -165,11 +165,10 @@ const SEO = ({ title, description, image, path, articleDate }) => {
       {/* OpenGraph */}
       <meta property="og:site_name" content={defaultTitle} />
       <meta property="og:url" content={seo.url} />
-      {articleDate && <meta property="og:type" content="article" />}
+      {articleDate ? <meta property="og:type" content="article" /> : <meta property="og:type" content="website" />}
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
       <meta property="og:image" content={seo.image} />
-      <meta property="og:image:alt" content={seo.description} />
       {/* fb app id */}
       <meta property="fb:app_id" content={fbAppId || ''} />
       {/* Twitter Card */}
@@ -178,7 +177,6 @@ const SEO = ({ title, description, image, path, articleDate }) => {
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
       <meta name="twitter:image" content={seo.image} />
-      <meta name="twitter:image:alt" content={seo.description} />
     </Helmet>
   );
 };
