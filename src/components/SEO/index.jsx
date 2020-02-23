@@ -166,14 +166,14 @@ const SEO = ({ title, description, image, path, articleDate }) => {
       {!articleDate && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
       {articleDate && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
       <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+      {/* fb app id */}
+      <meta property="fb:app_id" content={fbAppId || ''} />
       {/* OpenGraph */}
       <meta property="og:url" content={seo.url} />
       {articleDate ? <meta property="og:type" content="article" /> : <meta property="og:type" content="website" />}
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
       <meta property="og:image" content={seo.image} />
-      {/* fb app id */}
-      <meta property="fb:app_id" content={fbAppId || ''} />
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={twitterUsername} />
