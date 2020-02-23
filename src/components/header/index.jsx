@@ -2,7 +2,6 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
 import classNames from 'classnames';
 import ThemeContext from '../../context';
 import Logo from '../../../static/favicons/logo.png';
@@ -53,14 +52,6 @@ const ThemeToggle = () => {
       onClick={themeToggle}
       onKeyPress={themeToggle}
     >
-      <Helmet
-        meta={[
-          {
-            name: 'theme-color',
-            content: themeContext.theme === 'light' ? '#fff' : '#282c35',
-          },
-        ]}
-      />
       <div className="theme-toggle-track">
         <div className="theme-toggle-track-dark">
           <img src={Dark} alt="theme dark" />

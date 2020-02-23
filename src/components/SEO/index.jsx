@@ -158,10 +158,10 @@ const SEO = ({ title, description, image, path, articleDate }) => {
       <link rel="canonical" href={`${seo.url}`} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
-      {/*Google / Search Engine Tags*/}
-      <meta itemprop="name" content={seo.title}/>
-      <meta itemprop="description" content={seo.description}/>
-      <meta itemprop="image" content={seo.image}/>
+      {/* Google / Search Engine Tags */}
+      <meta itemProp="name" content={seo.title} />
+      <meta itemProp="description" content={seo.description} />
+      <meta itemProp="image" content={seo.image} />
       {/* Schema.org */}
       {!articleDate && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
       {articleDate && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
