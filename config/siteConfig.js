@@ -9,7 +9,7 @@ const config = {
   siteUrl: 'https://gatsby-starter-papan01.netlify.com', // Domain of your website without pathPrefix.
   pathPrefix: '/', // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   siteRss: '/rss.xml', // Path to the RSS file.
-  siteFBAppID: '464217807633356', // FB Application ID for using app insights
+  siteFBAppID: '214355523020609', // FB Application ID for using app insights
   siteGATrackingID: 'UA-153303709-3', // Tracking code ID for google analytics.
   disqusShortname: 'gatsbyjs-starter-papan01', // Disqus shortname.
   twitterUserName: '', // twitter creator for SEO
