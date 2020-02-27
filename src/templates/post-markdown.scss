@@ -26,6 +26,10 @@ $alertStyles: (
     text-align: justify;
   }
 
+  p {
+    margin-bottom: $relative-spacing-normal;
+  }
+
   a {
     color: var(--post-content-link);
     &:hover {
@@ -41,6 +45,11 @@ $alertStyles: (
     overflow: auto;
   }
 
+  code[class ="language-text"] {
+    color:var(--text-color);
+    background-color: var(--inline-code-bg);
+  }
+
   ol,
   ul {
     padding-left: 2 * $relative-spacing-normal;
@@ -48,14 +57,13 @@ $alertStyles: (
 
   > ol,
   > ul {
-    padding-left: 0;
+    padding-left: 1em;
   }
 
   ol {
     counter-reset: ol-counter;
     list-style-position: outside;
     text-indent: -1em;
-    padding-left: 1em;
     > li {
       counter-increment: ol-counter;
 
@@ -69,6 +77,14 @@ $alertStyles: (
         font-weight: $font-weight-bold;
       }
     }
+  }
+
+  blockquote p {
+    margin-bottom: $relative-spacing-normal;
+    margin-top: 1.9 * $relative-spacing-normal;
+    border-left: 4px solid var(--blue1);
+    padding-left: 0.8 * $relative-spacing-normal;
+    text-align: justify;
   }
 
   .gatsby-resp-image-wrapper {
@@ -163,6 +179,15 @@ $alertStyles: (
         clip-path: $sharp;
       }
     }
+
+    .custom-block-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      p {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
@@ -172,7 +197,6 @@ $alertStyles: (
   padding: 1em;
   pre[class*="language-"] {
     padding: 0;
-    overflow: scroll;
     min-width: 100%; /* 2 */
     &.line-numbers {
       padding-left: 2.8em;
