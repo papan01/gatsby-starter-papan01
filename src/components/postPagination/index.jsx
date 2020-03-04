@@ -36,7 +36,7 @@ const PostPagination = ({ currentPage, numPages, subpath }) => {
   return (
     <div className="post-pagination">
       {!isFirst && (
-        <Link to={prevPage} rel="prev">
+        <Link to={`${subpath}${prevPage}`} rel="prev">
           <i className="fas fa-arrow-left" />
           Previous Page
         </Link>
@@ -57,7 +57,7 @@ const PostPagination = ({ currentPage, numPages, subpath }) => {
         )}
       </div>
       {!isLast && (
-        <Link to={nextPage} rel="next">
+        <Link to={`${subpath}${nextPage}`} rel="next">
           Next Page
           <i className="fas fa-arrow-right" />
         </Link>
