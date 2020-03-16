@@ -32,15 +32,23 @@
   display: flex;
   align-items: center;
   font-size: $font-large;
-  margin: $spacing-large 0;
+  margin: $spacing-large * 5 0;
 
   .post-prev,
   .mobile-post-prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: auto;
+    padding-right: $spacing-large;
   }
 
   .post-next,
   .mobile-post-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
+    padding-left: $spacing-large;
   }
 }
