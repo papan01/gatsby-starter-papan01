@@ -3,6 +3,7 @@ import React, { useState, useContext } from 'react';
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import Helmet from 'react-helmet';
 import ThemeContext from '../../context';
 import Logo from '../../../static/favicons/logo.png';
 import Dark from '../../../static/material/moon.png';
@@ -11,8 +12,14 @@ import config from '../../../config/siteConfig';
 import './style.scss';
 
 const NavList = ({ navStyle, closeMenu }) => {
+  const overflowHidden = navStyle.includes('open');
   return (
     <nav className={navStyle}>
+      {overflowHidden ? (
+        <Helmet>
+          <style>{'body { overflow : hidden; }'}</style>
+        </Helmet>
+      ) : null}
       <ul className="nav-list">
         {config.navbarLinks.map(item => (
           <li key={item.label}>
